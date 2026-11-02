@@ -24,15 +24,10 @@
         <nav class="side-nav" aria-label="Page navigation">
           <a class="active" href="#about"><span>01</span> About</a>
           <a href="#research"><span>02</span> Research</a>
-          <a href="#agent"><span>03</span> Agent demo</a>
-          <a href="#projects"><span>04</span> Projects</a>
+          <a href="#projects"><span>03</span> Recent projects</a>
         </nav>
 
         <div class="sidebar-bottom">
-          <a href="https://scholar.google.com/citations?user=oJz2IEgAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar ↗</a>
-          <a href="https://github.com/YinyiLuo" target="_blank" rel="noreferrer">GitHub ↗</a>
-          <a href="https://x.com/Katherine_Luo6" target="_blank" rel="noreferrer">Twitter / X ↗</a>
-          <a href="https://www.linkedin.com/in/yinyi-luo-5b0805324/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
           <button id="themeToggle" type="button" aria-label="Switch to dark theme">Dark mode</button>
         </div>
       </aside>
@@ -43,7 +38,7 @@
           <button id="mobileNavToggle" type="button" aria-expanded="false" aria-controls="mobileNav">Menu</button>
         </header>
         <nav class="mobile-nav" id="mobileNav" aria-hidden="true">
-          <a href="#about">About</a><a href="#research">Research</a><a href="#agent">Agent demo</a><a href="#projects">Projects</a>
+          <a href="#about">About</a><a href="#research">Research</a><a href="#projects">Recent projects</a>
         </nav>
 
         <section class="intro" id="about">
@@ -62,35 +57,23 @@
           </div>
         </section>
 
-        <section class="section-block" id="agent" aria-labelledby="agent-title">
-          <div class="section-heading"><span>02</span><h3 id="agent-title">Agent demo</h3></div>
-          <div class="section-content">
-            <p class="section-description">A small interactive research tour. Ask about my work, projects, or a possible multimodal experiment.</p>
-            <div class="agent-card">
-              <div class="agent-bar"><span><i></i> research-agent <em>/ homepage demo</em></span><small>local · no API</small></div>
-              <div class="agent-log" id="agentLog" aria-live="polite">
-                <div class="agent-message bot"><div class="agent-avatar">A</div><div><div class="message-meta"><strong>research-agent</strong><span>now</span></div><p>Hi. I can give you a short tour of Yinyi’s research and projects.</p><div class="prompt-chips"><button type="button" data-prompt="Give me the 30-second version.">30-second version</button><button type="button" data-prompt="What is Yinyi building?">What is he building?</button><button type="button" data-prompt="Design a multimodal experiment.">Design an experiment</button></div></div></div>
-              </div>
-              <form class="agent-form" id="agentForm"><span>›</span><input id="agentInput" type="text" autocomplete="off" placeholder="Ask the agent…" aria-label="Message the research agent" /><button type="submit" aria-label="Send message">↗</button></form>
-            </div>
-          </div>
-        </section>
-
         <section class="section-block" id="projects" aria-labelledby="projects-title">
-          <div class="section-heading"><span>03</span><h3 id="projects-title">Selected projects</h3></div>
+          <div class="section-heading"><span>02</span><h3 id="projects-title">Recent projects</h3></div>
           <div class="section-content project-list">
-            <a class="project-row" href="https://github.com/YinyiLuo/AgentArk" target="_blank" rel="noreferrer"><span class="project-index">01</span><div><h4>AgentArk</h4><p>Agent systems · planning, memory, tools, and feedback</p></div><span class="project-tech">Python</span><span class="project-arrow">↗</span></a>
-            <a class="project-row" href="https://github.com/YinyiLuo/TorchUMM" target="_blank" rel="noreferrer"><span class="project-index">02</span><div><h4>TorchUMM</h4><p>Unified multimodal models · vision, language, and generation</p></div><span class="project-tech">PyTorch</span><span class="project-arrow">↗</span></a>
-            <a class="project-row" href="https://github.com/YinyiLuo/xLARD" target="_blank" rel="noreferrer"><span class="project-index">03</span><div><h4>xLARD</h4><p>Experimentation · inspecting and evaluating model behavior</p></div><span class="project-tech">JavaScript</span><span class="project-arrow">↗</span></a>
+            <a class="project-row" href="https://github.com/YinyiLuo/AgentArk" target="_blank" rel="noreferrer"><span class="project-index">01</span><div><h4>AgentArk</h4><p>Agentic frameworks · planning, memory, tools, and feedback</p></div><span class="project-tech">Agent</span><span class="project-arrow">↗</span></a>
+            <a class="project-row" href="https://github.com/YinyiLuo/TorchUMM" target="_blank" rel="noreferrer"><span class="project-index">02</span><div><h4>TorchUMM</h4><p>Unified multimodal models · vision, language, and generation</p></div><span class="project-tech">Model</span><span class="project-arrow">↗</span></a>
+            <a class="project-row" href="https://arxiv.org/abs/2605.11400" target="_blank" rel="noreferrer"><span class="project-index">03</span><div><h4>UniPath</h4><p>Adaptive coordination of understanding and generation for unified multimodal reasoning</p></div><span class="project-tech">Model</span><span class="project-arrow">↗</span></a>
+            <a class="project-row" href="https://arxiv.org/abs/2605.12652" target="_blank" rel="noreferrer"><span class="project-index">04</span><div><h4>Multi-Rollout On-Policy Distillation via Peer Successes and Failures</h4><p>Peer-conditioned on-policy distillation from successful and failed rollouts</p></div><span class="project-tech">OPD</span><span class="project-arrow">↗</span></a>
+            <a class="project-row" href="https://unifiedsd.github.io/" target="_blank" rel="noreferrer"><span class="project-index">05</span><div><h4>UniSD: Towards a Unified Self-Distillation Framework for Large Language Models</h4><p>A unified framework for studying self-distillation in large language models</p></div><span class="project-tech">OPD</span><span class="project-arrow">↗</span></a>
           </div>
         </section>
 
         <section class="section-block current-block" aria-labelledby="current-title">
-          <div class="section-heading"><span>04</span><h3 id="current-title">Currently</h3></div>
+          <div class="section-heading"><span>03</span><h3 id="current-title">Currently</h3></div>
           <div class="section-content"><p class="current-text">Thinking about how agents can use multimodal context to make better decisions, and how to evaluate the reasoning that leads to those decisions.</p></div>
         </section>
 
-        <footer class="site-footer"><span>© <span id="year"></span> Yinyi Luo</span><a href="https://scholar.google.com/citations?user=oJz2IEgAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar ↗</a><a href="https://github.com/YinyiLuo" target="_blank" rel="noreferrer">GitHub ↗</a><a href="#top">Back to top ↑</a></footer>
+        <footer class="site-footer"><span>© <span id="year"></span> Yinyi Luo</span><a href="#top">Back to top ↑</a></footer>
       </main>
     </div>
     <script src="script.js"></script>
