@@ -1,6 +1,6 @@
-# Yinyi Luo — Agent Builder Homepage
+# Yinyi Luo — Academic Homepage
 
-A lightweight, responsive academic-style personal homepage for Yinyi Luo, built with plain HTML, CSS, and JavaScript. It includes a browser-side research-agent demo so visitors can interact with the site rather than only read a project list.
+A clean, responsive academic-style personal homepage for Yinyi Luo, adapted to the structure of common academic GitHub Pages templates. It includes a small browser-side research-agent demo alongside research interests and selected projects.
 
 ## Run locally
 

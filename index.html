@@ -3,91 +3,90 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Yinyi Luo — AI/ML researcher building multimodal agents." />
-    <meta name="theme-color" content="#fbfaf7" />
-    <title>Yinyi Luo — AI/ML Researcher</title>
+    <meta name="description" content="Yinyi Luo — Ph.D. student at Carnegie Mellon University. Research on agentic AI systems, unified multimodal models, and multimodal reasoning." />
+    <meta name="theme-color" content="#fbfaf8" />
+    <title>Yinyi Luo</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="site-shell">
-      <aside class="profile-sidebar">
-        <div class="profile-top">
-          <div class="avatar" aria-hidden="true"><span>YL</span><i></i></div>
+      <aside class="sidebar">
+        <a class="monogram" href="#top" aria-label="Yinyi Luo home">YL</a>
+        <div class="profile">
           <h1>Yinyi Luo</h1>
-          <p class="role">AI / ML Researcher<br />Agent Builder</p>
-          <p class="affiliation">Carnegie Mellon University</p>
+          <p>Ph.D. student</p>
+          <p>Carnegie Mellon University</p>
         </div>
 
-        <nav class="side-nav" aria-label="Sections">
+        <nav class="side-nav" aria-label="Page navigation">
           <a class="active" href="#about"><span>01</span> About</a>
           <a href="#research"><span>02</span> Research</a>
           <a href="#agent"><span>03</span> Agent demo</a>
-          <a href="#builds"><span>04</span> Builds</a>
+          <a href="#projects"><span>04</span> Projects</a>
         </nav>
 
-        <div class="profile-links">
-          <a href="https://github.com/YinyiLuo" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
-          <a href="#agent">Talk to my agent <span>↓</span></a>
-          <button id="themeToggle" type="button" aria-label="Switch to dark theme">Dark mode <span>◐</span></button>
+        <div class="sidebar-bottom">
+          <a href="https://github.com/YinyiLuo" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <button id="themeToggle" type="button" aria-label="Switch to dark theme">Dark mode</button>
         </div>
-        <p class="sidebar-footer">Last updated · 2026</p>
       </aside>
 
-      <main class="content">
+      <main class="main" id="top">
         <header class="mobile-header">
-          <a href="#top">YL<span>/</span>Yinyi Luo</a>
+          <a href="#top">Yinyi Luo</a>
           <button id="mobileNavToggle" type="button" aria-expanded="false" aria-controls="mobileNav">Menu</button>
         </header>
         <nav class="mobile-nav" id="mobileNav" aria-hidden="true">
-          <a href="#about">About</a><a href="#research">Research</a><a href="#agent">Agent demo</a><a href="#builds">Builds</a>
+          <a href="#about">About</a><a href="#research">Research</a><a href="#agent">Agent demo</a><a href="#projects">Projects</a>
         </nav>
 
-        <section class="intro" id="top">
-          <p class="section-label"><span>Hi, I’m Yinyi.</span> I build agents that can see, reason, and act.</p>
-          <h2>Making machines<br /><em>more useful.</em></h2>
-          <p class="intro-text">I’m an AI/ML researcher interested in the space between perception and action — especially unified multimodal models, visual reasoning, and agents that learn to use tools.</p>
-          <div class="intro-meta"><span class="online-dot"></span><span>Currently researching at CMU</span><span class="meta-divider">·</span><a href="https://github.com/YinyiLuo" target="_blank" rel="noreferrer">Open GitHub ↗</a></div>
+        <section class="intro" id="about">
+          <p class="eyebrow">Hello</p>
+          <h2>Hi, I’m Yinyi Luo.</h2>
+          <p class="intro-lede">I’m currently a Ph.D. student at Carnegie Mellon University. My research focuses on <strong>agentic AI systems</strong>, <strong>unified multimodal models</strong>, and <strong>multimodal reasoning</strong>.</p>
+          <p class="intro-note">I am interested in building learning systems that can integrate information across modalities, reason about complex environments, and interact with the world through tools.</p>
+          <div class="intro-links"><span class="availability"><i></i> currently at CMU</span><a href="https://github.com/YinyiLuo" target="_blank" rel="noreferrer">GitHub ↗</a></div>
         </section>
 
-        <section class="section-block about-block" id="about" aria-labelledby="about-title">
-          <div class="section-heading"><span class="section-number">01</span><h3 id="about-title">About</h3></div>
-          <div class="section-body about-body"><p>I like the space between a paper and a working system. My work turns broad questions about intelligence into concrete experiments, readable code, and agents whose failures teach us something.</p><p>This page has a small agent built into it. Ask it for the quick tour, a project recommendation, or a multimodal experiment idea.</p></div>
-        </section>
-
-        <section class="section-block research-block" id="research" aria-labelledby="research-title">
-          <div class="section-heading"><span class="section-number">02</span><h3 id="research-title">Research interests</h3></div>
-          <div class="section-body interest-list">
-            <div class="interest-row"><span>01</span><div><strong>Agentic systems</strong><p>Planning, memory, tool use, feedback, and the loop from perception to action.</p></div></div>
-            <div class="interest-row"><span>02</span><div><strong>Multimodal intelligence</strong><p>Models that understand and generate across vision, language, video, and more.</p></div></div>
-            <div class="interest-row"><span>03</span><div><strong>Efficient learning</strong><p>Better data, training loops, and evaluation for capable systems that are practical to build.</p></div></div>
+        <section class="section-block" id="research" aria-labelledby="research-title">
+          <div class="section-heading"><span>01</span><h3 id="research-title">Research</h3></div>
+          <div class="section-content research-list">
+            <article><span class="research-number">01</span><div><h4>Agentic AI systems</h4><p>Agentic frameworks, planning, tool use, memory, and feedback-driven interaction.</p></div></article>
+            <article><span class="research-number">02</span><div><h4>Unified multimodal models</h4><p>Models that share representations and capabilities across vision, language, video, and generation.</p></div></article>
+            <article><span class="research-number">03</span><div><h4>Multimodal reasoning</h4><p>Grounded reasoning and evaluation for tasks that require perception, inference, and action.</p></div></article>
           </div>
         </section>
 
-        <section class="section-block agent-block" id="agent" aria-labelledby="agent-title">
-          <div class="section-heading"><span class="section-number">03</span><h3 id="agent-title">Agent demo <small>interactive</small></h3></div>
-          <div class="agent-card">
-            <div class="agent-header"><div><span class="agent-symbol">✳</span><strong>research-agent</strong><span class="agent-path">/ yinyi-luo / homepage</span></div><span class="agent-live"><i></i> online</span></div>
-            <div class="agent-log" id="agentLog" aria-live="polite">
-              <div class="agent-message bot"><div class="agent-avatar">A</div><div><div class="message-meta"><strong>research-agent</strong><span>now</span></div><p>Hi. I can give you a quick tour of Yinyi’s research, projects, and way of thinking about agents.</p><div class="prompt-chips"><button type="button" data-prompt="Give me the 30-second version.">30-second version</button><button type="button" data-prompt="What is Yinyi building?">What is he building?</button><button type="button" data-prompt="Design a multimodal experiment.">Design an experiment</button></div></div></div>
+        <section class="section-block" id="agent" aria-labelledby="agent-title">
+          <div class="section-heading"><span>02</span><h3 id="agent-title">Agent demo</h3></div>
+          <div class="section-content">
+            <p class="section-description">A small interactive research tour. Ask about my work, projects, or a possible multimodal experiment.</p>
+            <div class="agent-card">
+              <div class="agent-bar"><span><i></i> research-agent <em>/ homepage demo</em></span><small>local · no API</small></div>
+              <div class="agent-log" id="agentLog" aria-live="polite">
+                <div class="agent-message bot"><div class="agent-avatar">A</div><div><div class="message-meta"><strong>research-agent</strong><span>now</span></div><p>Hi. I can give you a short tour of Yinyi’s research and projects.</p><div class="prompt-chips"><button type="button" data-prompt="Give me the 30-second version.">30-second version</button><button type="button" data-prompt="What is Yinyi building?">What is he building?</button><button type="button" data-prompt="Design a multimodal experiment.">Design an experiment</button></div></div></div>
+              </div>
+              <form class="agent-form" id="agentForm"><span>›</span><input id="agentInput" type="text" autocomplete="off" placeholder="Ask the agent…" aria-label="Message the research agent" /><button type="submit" aria-label="Send message">↗</button></form>
             </div>
-            <form class="agent-form" id="agentForm"><span>›</span><input id="agentInput" type="text" autocomplete="off" placeholder="Ask the agent anything…" aria-label="Message the research agent" /><button type="submit" aria-label="Send">↗</button></form>
-            <div class="agent-foot"><span>browser demo · no API key</span><span>trace visible</span></div>
           </div>
         </section>
 
-        <section class="section-block builds-block" id="builds" aria-labelledby="builds-title">
-          <div class="section-heading"><span class="section-number">04</span><h3 id="builds-title">Selected builds</h3></div>
-          <div class="build-list">
-            <a class="build-row" href="https://github.com/YinyiLuo/AgentArk" target="_blank" rel="noreferrer"><span class="build-year">01</span><div><strong>AgentArk</strong><p>Agent systems · planning, memory, tools, feedback</p></div><span class="build-tag">Python</span><span class="build-arrow">↗</span></a>
-            <a class="build-row" href="https://github.com/YinyiLuo/TorchUMM" target="_blank" rel="noreferrer"><span class="build-year">02</span><div><strong>TorchUMM</strong><p>Multimodal models · vision, language, generation</p></div><span class="build-tag">PyTorch</span><span class="build-arrow">↗</span></a>
-            <a class="build-row" href="https://github.com/YinyiLuo/xLARD" target="_blank" rel="noreferrer"><span class="build-year">03</span><div><strong>xLARD</strong><p>Experimentation · inspect, test, repeat</p></div><span class="build-tag">JavaScript</span><span class="build-arrow">↗</span></a>
+        <section class="section-block" id="projects" aria-labelledby="projects-title">
+          <div class="section-heading"><span>03</span><h3 id="projects-title">Selected projects</h3></div>
+          <div class="section-content project-list">
+            <a class="project-row" href="https://github.com/YinyiLuo/AgentArk" target="_blank" rel="noreferrer"><span class="project-index">01</span><div><h4>AgentArk</h4><p>Agent systems · planning, memory, tools, and feedback</p></div><span class="project-tech">Python</span><span class="project-arrow">↗</span></a>
+            <a class="project-row" href="https://github.com/YinyiLuo/TorchUMM" target="_blank" rel="noreferrer"><span class="project-index">02</span><div><h4>TorchUMM</h4><p>Unified multimodal models · vision, language, and generation</p></div><span class="project-tech">PyTorch</span><span class="project-arrow">↗</span></a>
+            <a class="project-row" href="https://github.com/YinyiLuo/xLARD" target="_blank" rel="noreferrer"><span class="project-index">03</span><div><h4>xLARD</h4><p>Experimentation · inspecting and evaluating model behavior</p></div><span class="project-tech">JavaScript</span><span class="project-arrow">↗</span></a>
           </div>
         </section>
 
-        <section class="now-block" aria-label="Current focus"><span class="now-label">Now</span><p>Thinking about how agents can turn visual context into better decisions — and how to tell when they actually did.</p><span class="now-mark">↘</span></section>
+        <section class="section-block current-block" aria-labelledby="current-title">
+          <div class="section-heading"><span>04</span><h3 id="current-title">Currently</h3></div>
+          <div class="section-content"><p class="current-text">Thinking about how agents can use multimodal context to make better decisions, and how to evaluate the reasoning that leads to those decisions.</p></div>
+        </section>
 
         <footer class="site-footer"><span>© <span id="year"></span> Yinyi Luo</span><a href="https://github.com/YinyiLuo" target="_blank" rel="noreferrer">GitHub ↗</a><a href="#top">Back to top ↑</a></footer>
       </main>
