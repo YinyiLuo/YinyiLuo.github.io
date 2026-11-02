@@ -22,9 +22,11 @@
         </div>
 
         <nav class="side-nav" aria-label="Page navigation">
-          <a class="active" href="#about"><span>01</span> About</a>
-          <a href="#research"><span>02</span> Research</a>
-          <a href="#projects"><span>03</span> Recent projects</a>
+          <a class="active" href="#about"><span>01</span> About Me</a>
+          <a href="#research"><span>02</span> Research Interest</a>
+          <a href="#news"><span>03</span> News</a>
+          <a href="#publications"><span>04</span> Selected Publication</a>
+          <a href="#projects"><span>05</span> Recent Projects</a>
         </nav>
 
         <div class="sidebar-bottom">
@@ -38,10 +40,11 @@
           <button id="mobileNavToggle" type="button" aria-expanded="false" aria-controls="mobileNav">Menu</button>
         </header>
         <nav class="mobile-nav" id="mobileNav" aria-hidden="true">
-          <a href="#about">About</a><a href="#research">Research</a><a href="#projects">Recent projects</a>
+          <a href="#about">About Me</a><a href="#research">Research Interest</a><a href="#news">News</a><a href="#publications">Selected Publication</a><a href="#projects">Recent Projects</a>
         </nav>
 
         <section class="intro" id="about">
+          <div class="intro-section-heading"><span>01</span><h3>About Me</h3></div>
           <p class="intro-lede">Hi, I’m Yinyi Luo. I’m currently a Ph.D. student at Carnegie Mellon University. My research focuses on agentic AI systems, unified multimodal models, and multimodal reasoning. I am interested in building learning systems that can integrate information across modalities, reason about complex environments, and interact with the world through tools.</p>
           <p class="intro-note">I’m open to collaboration. Feel free to email me.</p>
           <p class="intro-email">Email: yinyil [at] andrew [dot] cmu [dot] edu</p>
@@ -49,7 +52,7 @@
         </section>
 
         <section class="section-block" id="research" aria-labelledby="research-title">
-          <div class="section-heading"><span>01</span><h3 id="research-title">Research</h3></div>
+          <div class="section-heading"><span>02</span><h3 id="research-title">Research Interest</h3></div>
           <div class="section-content research-list">
             <article><span class="research-number">01</span><div><h4>Agentic AI systems</h4><p>Agentic frameworks, planning, tool use, memory, and feedback-driven interaction.</p></div></article>
             <article><span class="research-number">02</span><div><h4>Unified multimodal models</h4><p>Models that share representations and capabilities across vision, language, video, and generation.</p></div></article>
@@ -57,8 +60,26 @@
           </div>
         </section>
 
+        <section class="section-block" id="news" aria-labelledby="news-title">
+          <div class="section-heading"><span>03</span><h3 id="news-title">News</h3></div>
+          <div class="section-content news-list">
+            <a class="news-row" href="https://arxiv.org/abs/2605.11400" target="_blank" rel="noreferrer"><time>2026</time><p>UniPath: Adaptive Coordination of Understanding and Generation for Unified Multimodal Reasoning <span>↗</span></p></a>
+            <a class="news-row" href="https://arxiv.org/abs/2605.12652" target="_blank" rel="noreferrer"><time>2026</time><p>Multi-Rollout On-Policy Distillation via Peer Successes and Failures <span>↗</span></p></a>
+            <a class="news-row" href="https://unifiedsd.github.io/" target="_blank" rel="noreferrer"><time>2026</time><p>UniSD: Towards a Unified Self-Distillation Framework for Large Language Models <span>↗</span></p></a>
+          </div>
+        </section>
+
+        <section class="section-block" id="publications" aria-labelledby="publications-title">
+          <div class="section-heading"><span>04</span><h3 id="publications-title">Selected Publication</h3></div>
+          <div class="section-content publication-list">
+            <a class="publication-row" href="https://arxiv.org/abs/2605.11400" target="_blank" rel="noreferrer"><span class="publication-year">2026</span><div><h4>UniPath: Adaptive Coordination of Understanding and Generation for Unified Multimodal Reasoning</h4><p>ArXiv preprint</p></div><span>↗</span></a>
+            <a class="publication-row" href="https://arxiv.org/abs/2605.12652" target="_blank" rel="noreferrer"><span class="publication-year">2026</span><div><h4>Multi-Rollout On-Policy Distillation via Peer Successes and Failures</h4><p>ArXiv preprint</p></div><span>↗</span></a>
+            <a class="publication-row" href="https://unifiedsd.github.io/" target="_blank" rel="noreferrer"><span class="publication-year">2026</span><div><h4>UniSD: Towards a Unified Self-Distillation Framework for Large Language Models</h4><p>Project page · ArXiv preprint</p></div><span>↗</span></a>
+          </div>
+        </section>
+
         <section class="section-block" id="projects" aria-labelledby="projects-title">
-          <div class="section-heading"><span>02</span><h3 id="projects-title">Recent projects</h3></div>
+          <div class="section-heading"><span>05</span><h3 id="projects-title">Recent Projects</h3></div>
           <div class="section-content project-list">
             <a class="project-row" href="https://github.com/YinyiLuo/AgentArk" target="_blank" rel="noreferrer"><span class="project-index">01</span><div><h4>AgentArk</h4><p>Agentic frameworks · planning, memory, tools, and feedback</p></div><span class="project-tech">Agent</span><span class="project-arrow">↗</span></a>
             <a class="project-row" href="https://github.com/YinyiLuo/TorchUMM" target="_blank" rel="noreferrer"><span class="project-index">02</span><div><h4>TorchUMM</h4><p>Unified multimodal models · vision, language, and generation</p></div><span class="project-tech">UMM</span><span class="project-arrow">↗</span></a>
