@@ -1,6 +1,6 @@
 # Yinyi Luo — Academic Homepage
 
-A clean, responsive academic-style personal homepage for Yinyi Luo, adapted to the structure of common academic GitHub Pages templates. It presents research interests, recent projects, and contact links in a compact academic layout.
+A clean, responsive academic-style personal homepage for Yinyi Luo, using a Jackson-inspired sticky-sidebar layout. It presents research interests, recent projects, and contact links in a compact academic layout.
 
 ## Run locally
 
