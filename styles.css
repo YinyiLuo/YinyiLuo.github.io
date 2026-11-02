@@ -49,3 +49,19 @@ body { font-size: 15px; }
 @media (max-width: 900px) { .site-shell { grid-template-columns: 158px minmax(0, 650px); gap: 55px; width: min(calc(100% - 50px), 863px); }.section-block { grid-template-columns: 125px 1fr; gap: 25px; } }
 @media (max-width: 650px) { .site-shell { display: block; width: min(calc(100% - 32px), 700px); }.sidebar { position: static; display: block; min-height: 0; padding: 25px 0 0; border: 0; }.monogram { display: inline-grid; width: 39px; height: 39px; margin: 0 10px 0 0; vertical-align: middle; }.profile { display: inline-block; vertical-align: middle; }.profile h1 { font-size: 1rem; }.profile p { font-size: .75rem; }.side-nav, .sidebar-bottom { display: none; }.main { padding-top: 27px; }.mobile-header { display: flex; justify-content: space-between; align-items: center; padding: 13px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }.mobile-header a, .mobile-header button { border: 0; background: transparent; font-family: var(--mono); font-size: .61rem; }.mobile-header button { color: var(--muted); text-transform: uppercase; }.mobile-nav { display: grid; max-height: 0; overflow: hidden; transition: max-height .22s, padding .22s; }.mobile-nav.open { max-height: 220px; padding: 7px 0; }.mobile-nav a { padding: 8px 0; border-bottom: 1px solid var(--line); color: var(--muted); font-size: .72rem; }.intro { padding: 57px 0 67px; }.intro h2 { font-size: clamp(2.9rem, 13vw, 4.4rem); }.intro-lede { font-size: .9rem; }.intro-note { font-size: .8rem; }.intro-links { flex-wrap: wrap; line-height: 1.8; }.section-block { display: block; padding: 40px 0; }.section-heading { margin-bottom: 24px; }.agent-log { min-height: 310px; padding-inline: 13px; }.agent-message.user { margin-left: 0; }.agent-bar em, .agent-bar small { display: none; }.project-row { grid-template-columns: 28px 1fr 18px; gap: 10px; }.project-tech { display: none; }.site-footer { flex-direction: column; align-items: flex-start; padding-top: 30px; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; } }
+
+/* Keep the introduction as one consistent body-text block. */
+.intro-lede,
+.intro-note,
+.intro-email {
+  max-width: 625px;
+  margin: 0 0 19px;
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: .84rem;
+  font-weight: 400;
+  line-height: 1.9;
+}
+
+.intro-lede { color: var(--ink); }
+.intro-email { margin-bottom: 27px; }
