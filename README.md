@@ -1,6 +1,6 @@
-# Yinyi Luo — Personal Homepage
+# Yinyi Luo — Agent Builder Homepage
 
-A lightweight, responsive personal homepage for Yinyi Luo, built with plain HTML, CSS, and JavaScript.
+A lightweight, responsive academic-style personal homepage for Yinyi Luo, built with plain HTML, CSS, and JavaScript. It includes a browser-side research-agent demo so visitors can interact with the site rather than only read a project list.
 
 ## Run locally
 
@@ -16,4 +16,6 @@ Open <http://localhost:4173>.
 
 - Update the copy and project links in `index.html`.
 - Change colors and layout in `styles.css`.
-- Theme switching, mobile navigation, and project filtering live in `script.js`.
+- Theme switching, mobile navigation, and the interactive agent demo live in `script.js`.
+
+The current agent is self-contained and does not call an API. Replace `responses` and `runAgent()` in `script.js` with a backend request when a real agent endpoint is ready.
