@@ -13,7 +13,7 @@
   --sidebar-ink: #29485b;
   --sans: "Libre Franklin", Arial, sans-serif;
   --mono: "DM Mono", monospace;
-  --sidebar: 295px;
+  --sidebar: 255px;
 }
 
 * { box-sizing: border-box; }
